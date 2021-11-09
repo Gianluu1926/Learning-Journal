@@ -1,4 +1,4 @@
-# Character Camera Movement
+# Camera Movement
 
 This shows how to set up a camera movement to follow the character.
 This shows how to make a gameObject move up, down, left and right based on the user's input.
