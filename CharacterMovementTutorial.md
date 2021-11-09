@@ -30,6 +30,12 @@ Atan2 is a mathematical function that returns the angle between the x-axis and a
 
 -Let's also smooth the rotating:
 
-![image](https://user-images.githubusercontent.com/91954726/140932270-9a29f268-9659-444a-aef5-9ceceae34549.png)
+![image](https://user-images.githubusercontent.com/91954726/140932337-e0fdadac-1bad-40af-9d68-ada3d5879fa6.png)
 
+# 4. Player travelling in camera's direction
 
+-Keep working in the script previously created and let's have the player to travel in the direction that the camera is facing  
+
+![image](https://user-images.githubusercontent.com/91954726/140933117-be94e7e3-1ef9-4c95-b2ea-ca18ad9066f0.png)
+
+Finally attach the MainCamera to the script under "cam" and now the player will instantly move forward where the camera is pointing
