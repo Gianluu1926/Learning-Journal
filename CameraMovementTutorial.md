@@ -1,12 +1,13 @@
-# Character Movement
+# Character Camera Movement
 
+This shows how to set up a camera movement to follow the character.
 This shows how to make a gameObject move up, down, left and right based on the user's input.
 
 # 1. Create a Scene
 
 -Start by opening Unity and creating a 3D project.
 
--Create a new scene and call it "CharacterMovement"
+-Create a new scene and call it "CameraMovement"
 
 -Add a 3D object that you wish and name it "Character"
 
@@ -45,6 +46,16 @@ This will tell what to do to our main camera and will follow the third person ca
 
 
 so that now the camera will follow the player movements.
+
+-Now let's adjust the camera under "orbits"
+
+"Binding Mode" change it to World Space
+"bottomRig" by decreasing the height to something like -1.60 and changing the radius to something like 12 
+"MiddleRig" By increasing the height to something like 5 and changing the radius to something like 17
+"TopRig" By increasing the height to something like 14 and changinng the radius to something like 12
+Under the Y and X axis change the value to whatever you prefer the most 
+
+This will allow the camera to be more distanciated from the player
 
 
 
