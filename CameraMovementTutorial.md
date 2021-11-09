@@ -50,13 +50,18 @@ so that now the camera will follow the player movements.
 -Now let's adjust the camera under "orbits"
 
 "Binding Mode" change it to World Space
+
 "bottomRig" by decreasing the height to something like -1.60 and changing the radius to something like 12 
+
 "MiddleRig" By increasing the height to something like 5 and changing the radius to something like 17
+
 "TopRig" By increasing the height to something like 14 and changinng the radius to something like 12
+
 Under the Y and X axis change the value to whatever you prefer the most 
 
 This will allow the camera to be more distanciated from the player
 
+![image](https://user-images.githubusercontent.com/91954726/140926946-5d388e46-de97-402b-ae35-a0a0249429d6.png)
 
 
 # 2. Create a new script
